@@ -1,0 +1,42 @@
+html, body {
+	height: 100%;
+	background-color: #ddd;
+	margin: 0;
+}
+#wrapper {
+	background-color: #252525;
+	color: white;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: 100%;
+}
+#container {
+	width: 800px;
+	margin: 0 auto;
+}
+#debug {
+	position: absolute;
+	width: 800px;
+	height: 60px;
+	top: 0;
+	left: 0;
+}
+#UI {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+}
+#info {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+a:link, a:visited {
+	color: #2fa1d6;
+	font-weight: bold;
+}
+a:hover {
+}
